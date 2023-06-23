@@ -1,1 +1,10 @@
 @import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@300&family=Roboto&family=Source+Sans+3:ital,wght@0,400;0,600;1,700&display=swap');
+
+html,
+body,
+#root,
+.app,
+.content {
+  height: 100%;
+  width: 100%;
+}
