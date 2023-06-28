@@ -4,7 +4,7 @@ import { ColorModeContext,tokens } from "../../theme";
 import InputBase from "@mui/material/InputBase";
 import LightModeOutlinedIcon from "@mui/icons-material/LightModeOutlined";
 import DarkModeOutlinedIcon from "@mui/icons-material/DarkModeOutlined";
-import NotificationOutlinedIcon from "@mui/icons-material/NotificationOutlined";
+import NotificationsOutlinedIcon from "@mui/icons-material/NotificationsOutlined";
 import SettingsOutlinedIcon from "@mui/icons-material/SettingsOutlined";
 import PersonOutlinedIcon from "@mui/icons-material/PersonOutlined";
 import SearchIcon from "@mui/icons-material/Search";
@@ -22,7 +22,7 @@ const Topbar = () => {
         >
             <InputBase sx={{ml: 2, flex: 1}} placeholder="Search"/>
             <IconButton type="button" sx={{p: 1}}>
-                <SeachIcon/>
+                <SearchIcon/>
             </IconButton>
         </Box>
 
@@ -38,7 +38,7 @@ const Topbar = () => {
             </IconButton>
 
             <IconButton>
-                <NotificationOutlinedIcon />
+                <NotificationsOutlinedIcon />
             </IconButton>
 
             <IconButton>
